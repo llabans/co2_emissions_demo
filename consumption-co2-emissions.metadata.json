@@ -1,0 +1,43 @@
+{
+  "chart": {
+    "title": "Consumption-based CO₂ emissions",
+    "subtitle": "[Consumption-based emissions](#dod:consumptionbasedemissions) include those from [fossil fuels and industry](#dod:fossilemissions). Land-use change emissions are not included.",
+    "citation": "Global Carbon Budget (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/consumption-co2-emissions?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States",
+      "United Kingdom",
+      "Sweden",
+      "Switzerland",
+      "Norway"
+    ]
+  },
+  "columns": {
+    "Annual consumption-based CO₂ emissions": {
+      "titleShort": "Annual consumption-based CO₂ emissions",
+      "titleLong": "Annual consumption-based CO₂ emissions",
+      "descriptionShort": "Annual consumption-based emissions of carbon dioxide (CO₂), measured in tonnes.",
+      "descriptionKey": [
+        "Consumption-based emissions attribute the emissions generated in the production of goods and services according to where they were _consumed_, rather than where they were _produced_.",
+        "The data is calculated by adjusting 'production-based' emissions (emissions produced domestically) for trade: Consumption-based emissions equals production-based emissions, _minus_ emissions embedded in exports, _plus_ emissions embedded in imports.",
+        "If a country's consumption-based emissions are higher than its production emissions it is a net importer of carbon dioxide. If its consumption-based emissions are lower, then it is a net exporter.",
+        "Consumption-based emissions are not available for all countries because not all countries have sufficient, high-quality trade data. But those without complete data are a small fraction (3%) of the global total.",
+        "This data measures carbon dioxide (CO₂) emissions from fossil fuels and industry and does not include emissions from land use change, deforestation, soils, or vegetation.",
+        "Emissions from international aviation and shipping are not included in any country or region's emissions. They are only included in the global total emissions."
+      ],
+      "descriptionProcessing": "- Data on global emissions has been converted from tonnes of carbon to tonnes of carbon dioxide (CO₂) using a conversion factor of 3.664.\n- Emissions from the Kuwaiti oil fires in 1991 have been included as part of Kuwait's emissions for that year.\n- Country's share of the global population is calculated using our population dataset, based on [different sources](https://ourworldindata.org/population-sources).\n- Each country's share of global CO₂ emissions from flaring has been calculated using global CO₂ emissions from flaring provided in the Global Carbon Budget dataset.\n",
+      "shortUnit": "t",
+      "unit": "tonnes",
+      "timespan": "1990-2023",
+      "type": "Numeric",
+      "owidVariableId": 998353,
+      "shortName": "consumption_emissions",
+      "lastUpdated": "2024-11-21",
+      "nextUpdate": "2025-11-21",
+      "citationShort": "Global Carbon Budget (2024) – with major processing by Our World in Data",
+      "citationLong": "Global Carbon Budget (2024) – with major processing by Our World in Data. “Annual consumption-based CO₂ emissions – GCB” [dataset]. Global Carbon Project, “Global Carbon Budget” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/998353.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-12-07"
+}
